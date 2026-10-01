@@ -4,9 +4,7 @@ Mandi Mitra is a simple procurement visibility app for farmers and mandi staff. 
 
 ## Live Demo
 
-Open the deployed app:
-
-https://mandi-mitra-5eg459m5i-aishwaryakattupalli28-5787s-projects.vercel.app
+[View Demo](https://mandi-mitra-5eg459m5i-aishwaryakattupalli28-5787s-projects.vercel.app)
 
 ## Features
 
