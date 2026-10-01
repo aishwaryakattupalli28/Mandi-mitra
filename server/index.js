@@ -81,4 +81,7 @@ app.patch('/api/lots/:id/status', (req, res) => {
 app.patch('/api/notifications/read', (req, res) => { notifications.forEach((notification) => { notification.unread = false }); res.json({ ok: true }) })
 
 app.use(express.static('dist'))
-server.listen(3001, () => console.log('Mandi Mitra API running on http://localhost:3001'))
+
+if (!process.env.VERCEL) server.listen(3001, () => console.log('Mandi Mitra API running on http://localhost:3001'))
+
+export default app

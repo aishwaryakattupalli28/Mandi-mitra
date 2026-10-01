@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { AlertTriangle, ArrowRight, Bell, Check, ChevronDown, Clock3, CloudRain, Globe2, Info, Languages, Leaf, MapPin, Menu, MessageSquare, Mic, RefreshCw, Settings2, ShieldCheck, Smartphone, Users, Volume2, X } from 'lucide-react'
 import './styles.css'
 
-const API = 'http://localhost:3001/api'
+const API = import.meta.env.DEV ? 'http://localhost:3001/api' : '/api'
 const stageOrder = ['Gate entry', 'Quality check', 'Form-I verification', 'Lifting', 'Payment']
 const stageNames = { 'Gate entry': 'Gate Entry', 'Quality check': 'Quality Check', 'Form-I verification': 'Form-I Verification', Lifting: 'Lifting', Payment: 'Payment' }
 const translations = {
