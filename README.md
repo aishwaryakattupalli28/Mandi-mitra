@@ -20,24 +20,6 @@ https://mandi-mitra-5eg459m5i-aishwaryakattupalli28-5787s-projects.vercel.app
 - English, Hindi, Punjabi, Marathi, and Telugu labels
 - Responsive layout for desktop and mobile
 
-## Run Locally
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the app:
-
-```bash
-npm run dev
-```
-
-Open http://localhost:5173 in your browser.
-
-The Vite frontend runs on port `5173`. The Express mock API runs on port `3001`.
-
 ## Technology
 
 - React
